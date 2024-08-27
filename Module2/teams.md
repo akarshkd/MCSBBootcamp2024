@@ -1,30 +1,25 @@
 # Module 2
 
-Team Backdoor:
+Team Cabinet:
 
-* Kyla
-* Madi
-* Jacy
+* Melika
+* Chelsea
+* Ashish
 
 Team Lectern:
 
-* Dylan
-* Arvind
-* Qingyuan
-  
-Team Window:
+* Ana
+* Akarsh
+* Kate
 
-* Zhishun
-* Luke
-* Austin
+Team Fire Alarm:
 
-Team Art:
-
-* Ren
-* Rany
+* Ethan
+* Yun
+* Gautham
 
 Team Clock:
 
-* Luis
-* Abbey
-* Caroline
+* Shing
+* Caleb
+* Sinai

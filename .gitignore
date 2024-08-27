@@ -15,3 +15,5 @@
 **/*.lb
 **/*.synctex.gz
 **/*.fdb_latexmk
+
+Module2/venv/**
