@@ -1,0 +1,44 @@
+r = 2.5;
+K = 0.6;
+nsteps = 100;
+x = zeros(1,nsteps);
+x(1) = 0.2;
+
+for n=2:nsteps
+    x(n) = x(n-1) + r*(1-(x(n-1)/K))*x(n-1);
+end
+
+figure(1);
+plot(x,'-ob'); 
+ylabel('Population')
+xlabel('Time')
+
+
+nval = 100;
+nparam = 100;
+xns = zeros(1,nparam);
+r = linspace(0,3.,nparam);
+
+for i=1:nparam
+    xvals = zeros(nparam*nval);
+    x = zeros(1,nsteps);
+    x(1) = 0.2;
+
+    for n=2:nsteps
+        x(n) = x(n-1) + r(i)*(1-(x(n-1)/K))*x(n-1);
+    end
+    xns(i) = x(nsteps);
+    
+end
+
+rvals = zeros(nparam*nval);
+
+for i=1:nparam
+    for j
+    rvals();
+end
+
+figure(2);
+plot(xns,r,'-ob'); 
+ylabel('Population')
+xlabel('Time')
