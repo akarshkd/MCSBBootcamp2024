@@ -12,7 +12,7 @@ Team Lectern:
 * Ashish
 * Ethan
   
-Team Fire Exit:
+Team Max Occupancy:
 
 * Shing
 * Patrick
