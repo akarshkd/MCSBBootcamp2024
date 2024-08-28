@@ -1,28 +1,35 @@
 # Module 3
 
-Team Backdoor:
+Team Clock:
 
-* Rany
-* Abbey
-* Arvind
+* Caleb
+* Akarsh
+* Yun
 
 Team Lectern:
 
-* Zhishun
-* Austin
-* Kyla
-* Ren
+* Ana
+* Ashish
+* Ethan
   
-Team Window:
+Team Fire Exit:
 
-* Caroline
-* Jacy
-* Luke
+* Shing
+* Patrick
+* Melika
 
-Team Art:
+Team Cabinet:
 
-* Qingyuan
-* Luis
-* Dylan
+* Kate
+* Chelsea
+* Gautham
+* Sinai
+
+
+
+
+
+
+
 
 

@@ -21,6 +21,6 @@ end % finished loop through days
 % THE BEHAVIOR / THE OUTPUT ? 
 
 figure(1); 
-plot(x,'-ok');
+plot(x,'-ob');
 ylabel('fraction caffeinated')
 xlabel('Days')
