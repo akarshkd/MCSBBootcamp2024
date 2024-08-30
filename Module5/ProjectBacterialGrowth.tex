@@ -64,6 +64,8 @@ Given data, can we find which model parameters are the best fit?
 \end{equation}
 where the user (you) specifies the parameter values $\lambda=1,\theta=10^3,\alpha=2$, and the initial condition $N(0)=200$. Plot a time series of $N_{\rm sim}(t)$.
 \item Write code that loads in bacterial growth experimental data into two arrays: One for the amount of bacteria $N_{\rm exp}(t_i)$ and the other for measurement time points $t_i$. Plot the time series $N_{\rm exp}(t_i)$. 
+\item Plot the solution $N(t)$ and the experimental data $N_{\rm exp}(t)$ on the same axes. Set $N(0)$ to match the experimental data exactly. 
+Manually explore different parameter values of $\lambda,\theta,\alpha$ to see which values best fit the data.
 \item Write code that computes the sum of squared error (SSE), which is 
 \begin{equation}
 SSE = \sum_i \left( N_{\rm sim}(t_i) - N_{\rm exp}(t_i)\right)^2
