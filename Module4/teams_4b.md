@@ -1,46 +1,28 @@
-# Module 4B (Monday Sep 11th)
+# Module 4B (Tuesday Sep 3rd)
 
-Team Backdoor:
+Team Clock:
 
-* Kyla
-* Ren
-* Dylan
+* Ashish
+* Yun
+* Ana
 
 Team Lectern:
 
-* Rany
-* Luke
-* Caroline
+* Chelsea
+* Sinai
+* Shing
   
+Team Max Occupancy:
+
+* Gautham
+* Akarsh
+* Kate
+
+Team Cabinet:
+
+* Ethan
+* Caleb
+
 Team Window:
-
-* Zhishun
-* Jacy
-
-Team Art:
-
-* Luis
-* Arvind
-
-Team Middle:
-* Austin
-* Qingyuan
-* Abbey
-
-
-
-Team Concrete Wall:
-Jacy
-Ren
-Arvind
-Team Window:
-Dylan
-Kyla
-Rany
-Team Art:
-Qingyuan
-Zhishun
-Team Middle:
-Madi
-Austin
-Luis
+* Melika
+* Patrick
