@@ -60,7 +60,7 @@ Given data, can we find which model parameters are the best fit?
 \begin{enumerate}[a]
 \item Write code to simulate the following model
 \begin{equation}
-\frac{dN}{dt} = \lambda N \left( 1 - \left(N/\theta\right)^\alpha\right) 
+\frac{dN}{dt} = \lambda N \left( 1 - \left(N/\theta\right)^\alpha\right)  \label{eq:generalized_logistic}
 \end{equation}
 where the user (you) specifies the parameter values $\lambda=1,\theta=10^3,\alpha=2$, and the initial condition $N(0)=200$. Plot a time series of $N_{\rm sim}(t)$.
 \item Write code that loads in bacterial growth experimental data into two arrays: One for the amount of bacteria $N_{\rm exp}(t_i)$ and the other for measurement time points $t_i$. Plot the time series $N_{\rm exp}(t_i)$. 
@@ -72,10 +72,17 @@ SSE = \sum_i \left( N_{\rm sim}(t_i) - N_{\rm exp}(t_i)\right)^2
 \end{equation}
 Hint: The Matlab solver \verb|ode45| can take a time vector as an input argument. If the time vector has more than two elements, it will return the solution only at those elements. This is useful if you only need the solution at certain times $t_i$. 
 \item Using the code from the previous part, create a \textit{function} that takes parameters and returns the SSE.
-Hint: A function can be defined in a separate m-file. See example in Module 4, Part 1.  
+Hint: A function can be defined in a separate m-file. See example in Module 3, Part 1.  
 \item Use an automated minimization algorithm like Matlab's \verb|fminsearch| to find the parameters that minimize the sum of squared error. 
 These parameters are the ``best fit" or ``maximum likelihood" parameters $\hat\lambda,\hat\theta,\hat\alpha$.  
 Plot, on the same axes, the experimental and best-fit model time series, $N_{\rm exp}(t)$ and $N_{\rm sim}(t)$.
+
+\item Now repeat the above, but use the model with $\alpha=1$. Did the fit improve, or worsen?
+\item Now repeat the above, but with 
+  \begin{equation}
+    \frac{dN}{dt} = \lambda N. 
+  \end{equation}
+Note this is numerically the same as Eq.~\ref{eq:generalized_logistic} with $\theta \gg N$ . Did the fit improve, or worsen?
 \end{enumerate}
  
 
