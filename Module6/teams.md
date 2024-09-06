@@ -1,29 +1,29 @@
 # Module 6
 
-Team Backdoor:
 
-* Luke
-* Caroline
-* Abbey
+Team Clock:
+
+* Kate
+* Yun
+* Caleb
 
 Team Lectern:
 
-* Jacy
-* Ren
-* Arvind
+* Ethan
+* Akarsh
+* Patrick
   
+Team Max Occupancy:
+
+* Ana
+* Gautham
+* Sinai
+
+Team Cabinet:
+
+* Ashish
+* Shing
+
 Team Window:
-
-* Dylan
-* Kyla
-* Rany
-
-Team Art:
-
-* Madi
-* Zhishun
-
-Team Middle:
-* Qingyuan
-* Austin
-* Luis
+* Chelsea
+* Melika
